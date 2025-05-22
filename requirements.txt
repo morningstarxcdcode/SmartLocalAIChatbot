@@ -1,0 +1,14 @@
+# Requirements for SmartLocalAIChatbot
+
+flask
+faiss-cpu
+chromadb
+transformers
+torch
+onnxruntime
+scikit-learn
+numpy
+pandas
+pytest
+loguru
+sentence-transformers

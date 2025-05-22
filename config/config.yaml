@@ -1,0 +1,26 @@
+# Configuration file for SmartLocalAIChatbot
+
+# Paths
+data_path: "./data"
+models_path: "./models"
+vector_store_path: "./vector_store"
+
+# Model settings
+llm_model: "llama2"
+llm_model_path: "./models/llama2"
+embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+
+# Vector store settings
+vector_store_type: "faiss"  # options: faiss, chromadb
+
+# Optimization settings
+optimization:
+  quantization: true
+  pruning: false
+  onnx_export: true
+
+# Flask app settings
+flask:
+  host: "127.0.0.1"
+  port: 5000
+  debug: true
